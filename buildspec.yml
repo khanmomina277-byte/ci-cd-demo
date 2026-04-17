@@ -1,0 +1,7 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Start build"
+      - wrong_command_here   # ❌ error
